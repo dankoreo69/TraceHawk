@@ -52,12 +52,6 @@ def generate(ip, port, lang):
         raise ValueError("Unsupported language")
 
 if __name__ == "__main__":
-    ip = input("Enter IP: ")
-    port = input("Enter Port: ")
-    lang = input("Enter language (bash/python/php/nc/powershell): ")
-    print(generate(ip, port, lang))
-
-if __name__ == "__main__":
     ip = input("Enter your IP: ")
     port = input("Enter port: ")
     lang = input("Language (bash/python/php/nc/powershell): ").strip().lower()

@@ -1,6 +1,4 @@
-
-import os
-from IGscrape import IGScrape
+from tools.IGscrape import IGScrape
 
 def handle_ig_scrape():
     username = input("Enter Instagram username: ").strip()

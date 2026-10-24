@@ -1,10 +1,7 @@
+beautifulsoup4
 colorama
-requests
-ensta
-helper
-phonenumbers
-instaloader
-selenium
-ipaddress
-callable
 flask
+instaloader
+phonenumbers
+requests
+windows-curses; sys_platform == "win32"

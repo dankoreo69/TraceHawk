@@ -2,7 +2,6 @@ import requests
 from datetime import datetime
 from time import sleep
 import random
-import re
 import os
 
 BLUE = "\033[34m"
@@ -440,7 +439,6 @@ def main():
     for site, config in SITES.items():
         try:
             url = config["url"].format(username=username)
-            url = f"{config['url']}".format(username=username)
 
             log(f"Checking {site}: {url}", "CHECK")
 

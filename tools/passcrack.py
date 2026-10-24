@@ -1,6 +1,5 @@
 import os
 import hashlib
-import binascii
 import zlib
 
 banner = """\033[091m
